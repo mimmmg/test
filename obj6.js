@@ -6,7 +6,7 @@ interface Flyable {
 }
 
 // 두번째 인터페이스
-interface Swimmable {
+interface Swimmable {   //swimmable 이라는 인터페이스 이름을 갖고온거. 인터페이스는 계속 바뀔 수 있음
     void swim();
 }
 

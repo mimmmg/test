@@ -3,7 +3,7 @@ int isprime(int number)
 {
     int i;
     for(i = 2; i < number; i++)
-    if(number % i  == 0) // number를 i로 나눠서 나머지값이 0으로 나눠떨어지면 리턴0, 안나눠떨어지고 자기자신까지 나오면 리턴1
+    if(number % i  == 0) // number를 i로 나눠서 나머지값이 0으로 나눠떨어지면 리턴0, 안나눠떨어지고 자기자신 나올때까지 나오면 리턴1
         return 0;
     return 1;
 }
